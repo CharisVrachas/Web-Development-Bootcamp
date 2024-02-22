@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project</title>
+
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 748px;
+        height: 746px;
+        display: grid;
+        grid-template-columns: 320px 198px 153px 50px;
+        grid-template-rows: 414px 130px 155px 20px;
+        gap: 9px;
+        background-color: #000;
+      }
+
+      .cl-1 {
+        background-color: red;
+      }
+
+      .cl-2 {
+        background-color: #F0F1EC;
+        grid-column: span 3;
+      }
+
+      .cl-3 {
+        background-color: #F0F1EC;
+        grid-row: span 2;
+      }
+
+      .cl-4 {
+        background-color: #F0F1EC;
+        grid-row: span 2;
+        grid-column: span 2;
+      }
+
+      .cl-5 {
+        background-color: #004592;
+        border-bottom: 10px solid #232629;
+      }
+
+      .cl-6 {
+        background-color: #F0F1EC;
+        grid-row: span 2;
+      }
+
+      .cl-7 {
+        background-color: #F0F1EC;
+      }
+
+      .cl-8 {
+        background-color: #F9D01E;
+      }
+
+      .cl-9 {
+        background-color: #232629;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="cl-1"></div>
+      <div class="cl-2"></div>
+      <div class="cl-3"></div>
+      <div class="cl-4"></div>
+      <div class="cl-5"></div>
+      <div class="cl-6"></div>
+      <div class="cl-7"></div>
+      <div class="cl-8"></div>
+      <div class="cl-9"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+.flag {
+    width: 600px;
+    height: 350px;
+    position: relative;
+}
+
+/* Main */
+.blue {
+    width: 100%;
+    height: 2.5em;
+    background-color: rgb(13, 94, 175);
+}
+
+.white {
+    width: 100%;
+    height: 2.5em;
+    background-color: white;
+}
+
+/* Rood */
+.rood {
+    width: 15em;
+    height: 12.5em;
+    position: absolute;
+    background-color: white;
+}
+
+.blue-rd {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.white-rd {
+    width: 100%;
+    height: 2.5em;
+    background-color: white;
+}
+
+.blue-rd2 {
+    width: 40%;
+    height: 2.5em;
+    background-color: rgb(13, 94, 175);
+}
