@@ -1,0 +1,92 @@
+/* ABOUT */
+
+@media (max-width: 550px) {
+    .line {
+        min-width: unset;
+    }
+
+    .line::before {
+        display: none;
+    }
+
+    .line::after {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #about > .container > div:nth-child(2) {
+        justify-content: center;
+    }
+
+    #about > .container > div:nth-child(2) div {
+        width: auto;
+    }
+
+    #about > .container > div:nth-child(2) > div {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 329px) {
+    .info-list li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .connection-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .my-bio {
+        text-align: center;
+    }
+}
+
+
+/* RESUME */
+
+@media (max-width: 991px) {
+    #resume > .container > div:nth-child(2) div:nth-child(2),
+    #resume > .container > div:nth-child(2) div:nth-child(3) {
+        margin-top: 3rem;
+    }
+
+    .horizontal-line {
+        border-right: 0;
+    }
+}
+
+
+/* PROJECTS */
+
+@media (max-width: 991px) {
+    #projects > .container > div:nth-child(2) div:nth-child(2),
+    #projects > .container > div:nth-child(2) div:nth-child(3) {
+        margin-top: 3rem;
+    }
+
+    #projects > .container > div:nth-child(2) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #projects > .container > div:nth-child(2) div {
+        width: auto;
+    }
+}
+
+
+/* CONTACT */
+
+@media (max-width: 992px) {
+    .contact-img {
+        display: none;
+    }
+
+    #contact > .container > div:nth-child(2) div {
+        width: auto;
+    }
+}
